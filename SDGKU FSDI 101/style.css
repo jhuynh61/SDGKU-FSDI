@@ -1,0 +1,35 @@
+img{
+    padding: 10px;
+    outline: 5px solid black;
+    outline-style: ridge;
+    
+}
+
+/*header*/
+.site-init{
+    background-color: darkgrey;
+    color: gold;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+.menu-sub{
+    display:block;
+text-align: center;
+background-color: #ffcc00;
+}
+
+/*main*/
+.lg-text{
+    font-size: 44px;
+    color: darkblue;
+}
+.sm-text{
+    font-size: 30px;
+    color: darkblue;
+}
+.xsm-text{
+    font-size: 20px;
+    color: darkblue;
+}

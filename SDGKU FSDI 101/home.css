@@ -1,0 +1,67 @@
+img{
+    padding: 10px;
+    outline: 5px solid gold;
+    outline-style: ridge;
+}
+
+/*header*/
+.site-init{
+    background-color: darkblue;
+    color: gold;
+}
+a{
+    color: gold;
+    text-decoration: none;
+}
+.menu-sub{
+    display:block;
+text-align: center;
+background-color: #ffcc00;
+color: blue;
+}
+
+/*main*/
+.lg-text{
+    font-size: 44px;
+    color: darkblue;
+}
+.sm-text{
+    font-size: 30px;
+    color: darkblue;
+}
+.xsm-text{
+    font-size: 20px;
+    color: gold;
+}
+
+/*img*/
+.background-color{
+    color: gold;
+    
+}
+
+/*footer*/
+footer{
+    text-align: right;
+}
+html{
+    background-color: lightskyblue;
+    color: gold;
+    background-image: url("82376D0F-6DE7-4BF9-8B4B-D93501C36CC5_4_5005_c.jpeg");
+    background-size: cover;
+}
+.image-container {
+    width: fit-content;
+    margin-left: 0;
+    text-align: center;
+}
+
+.image-container img {
+    display: block;
+}
+
+.image-container p {
+    margin-top: 10px;
+    color: gold;
+    font-size: 20px;
+}
