@@ -1,23 +1,36 @@
-img{
-    padding: 10px;
-    outline: 5px solid gold;
-    outline-style: ridge;
-}
-
 /*header*/
 .site-init{
     background-color: darkblue;
     color: gold;
+    padding: 30px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+}
+/*global*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: arial;
+    margin: 10px;
+}
+main{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 a{
     color: gold;
     text-decoration: none;
+    text-align: center;
 }
 .menu-sub{
     display:block;
 text-align: center;
 background-color: #ffcc00;
 color: blue;
+padding: 10px;
 }
 
 /*main*/
@@ -44,11 +57,11 @@ color: blue;
 footer{
     text-align: right;
 }
-html{
-    background-color: lightskyblue;
-    color: gold;
+body{
     background-image: url("82376D0F-6DE7-4BF9-8B4B-D93501C36CC5_4_5005_c.jpeg");
     background-size: cover;
+    background-position: fill;
+    background-repeat: no-repeat;
 }
 .image-container {
     width: fit-content;
@@ -64,4 +77,73 @@ html{
     margin-top: 10px;
     color: gold;
     font-size: 20px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*gallery*/
+.blog-container{
+    display: flex;
+    gap: 2px;
+    margin-bottom: 40px;
+}
+.blog-container img{
+    width: 90%;
+    height: auto;
+}
+.blog-container p{
+    color: gold;
+    font-size: 16px;
+    width: 90%;
+    line-height: 1.5;
+    text-align: left;
+}
+.blog-container video{
+    width: 80%;
+    height: auto;
+    justify-content: center;
+}
+.display-flex{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 40px;
+    align-items: start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.display-flex article{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    min-width: 0;
+    text-align: center;
+}
+.display-flex p{
+    width: auto;
+    margin: 0;
+    color: gold;
+    text-align: left;
+}
+.display-flex video{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    border: 4px solid gold;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(255, 204, 0, 0.7);
+}
+
+@media (max-width: 900px){
+    .display-flex{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px){
+    .display-flex{
+        grid-template-columns: 1fr;
+    }
 }
