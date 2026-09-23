@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="form.css">
+    <title>Form</title>
+</head>
+<body>
+    <header class="site-init">
+        <div class="navigation">
+            <h1>Forms</h1>
+            <nav>
+                <a href="home.html">Home</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <a class="menu-sub" href="#">Submit</a>
+        </div>
+    </header>
+
+    <main class="contact-layout">
+        <div class="contact-card form-container">
+            <h2>Contact Form Example</h2>
+            <p>This is information for the user</p>
+
+            <form class="form-example">
+                <div class="input-container">
+                    <label>Date:</label>
+                    <input type="date" placeholder="Enter the date" id="txtDate" name="user_date">
+                </div>
+
+                <div class="input-container">
+                    <label>Name:</label>
+                    <input type="text" placeholder="Enter the name" id="txtName" name="user_name">
+                </div>
+
+                <div class="input-container">
+                    <label>Age:</label>
+                    <input type="number" placeholder="Enter the age" id="txtAge" name="user_age">
+                </div>
+
+                <div class="input-container">
+                    <label>Password:</label>
+                    <input type="password" placeholder="Enter the password" id="txtPassword" name="user_pass">
+                </div>
+
+                <div class="input-container">
+                    <label>Phone:</label>
+                    <input type="tel" placeholder="Enter the number" id="txtTel" name="user_tel">
+                </div>
+
+                <div class="input-container">
+                    <label>Message:</label>
+                    <textarea placeholder="Type your message here"></textarea>
+                </div>
+
+                <button class="btn-send" type="submit">Send</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

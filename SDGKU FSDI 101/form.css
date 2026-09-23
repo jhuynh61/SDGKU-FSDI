@@ -1,0 +1,66 @@
+.form-container{
+    background: rgba(0, 0, 0, 0.15);
+    border: 4px solid gold;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(255, 204, 0, 0.5);
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+.form-container h2,
+.form-container h3 {
+    color: darkblue;
+    margin-bottom: 12px;
+}
+
+.form-container p {
+    color: darkblue;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.form-example {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 0;
+}
+
+.input-container label{
+    width: auto;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.input-container input,
+.input-container textarea{
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.input-container textarea{
+    min-height: 140px;
+    resize: vertical;
+}
+
+.btn-send{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: darkblue;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: flex-start;
+}
